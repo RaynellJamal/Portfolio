@@ -299,6 +299,14 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
+}
+
+.waxon_tm_mobile_menu a{
+	text-decoration: none;
+	color: #000;
+	font-family: "Montserrat";
+	font-weight: 500;
 }
 .my_trigger .hamburger{
     padding: 15px 15px;
@@ -427,7 +435,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Montserrat";
 	font-weight: 500;
 }
-.waxon_tm_mobile_menu .logo img{max-width: 70px;}
+.waxon_tm_mobile_menu .logo a{max-width: 70px;}
 
 /*---------------------------------------------------*/
 /*	04) WAXON HERO
@@ -972,7 +980,7 @@ h1, h2, h3, h4, h5, h6{
 /*---------------------------------------------------*/
 
 .github-btn, .link-btn{
-	width: 36%;
+	width: 37%;
 	padding-right: 25px;
 	text-align: center;
 	text-decoration: none;
@@ -981,8 +989,8 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
     border: 2px solid #000;
     font-style: italic;
-	background-color: rgb(65, 105, 225);
-	border-color: rgb(65, 105, 225);
+	background-color: #000;
+	border-color: #000;
 	cursor: pointer;
 }
 
@@ -990,6 +998,24 @@ h1, h2, h3, h4, h5, h6{
 	text-decoration: none;
 	color: #fff;
 }
+
+.github-btn:hover{
+	background-color: #c0c0c0;
+	color: #000;
+}
+.github-btn a:hover{
+	color: #000;
+}
+.link-btn:hover{
+	background-color: #c0c0c0;
+	color: #000;
+}
+.link-btn a:hover{
+	color: #000;
+}
+
+
+
 
 
 
